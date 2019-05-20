@@ -1,0 +1,18 @@
+<form id="new-form" action="/flights" method="POST">
+    <label>Airline:</label>
+    <input type="text" name="airline">
+    <label>Flight Number:</label>
+    <input type="text" name="flightNo">
+    <label>Departure</label>
+    <input type="datetime-local" name="departs" value ="2019-05-17T15:30" min="2019-05-17T00:00" max="2020-05-17T00:00">
+    <!-- <label>Now Showing:</label>
+    <input type="checkbox" name="nowShowing" checked> -->
+    <input type="submit" value="Add Flight">
+    <label>Airport</label>
+    <select name="airport">
+    <option value="AUS">AUS</option>
+    <option value="DAL">DAL</option>
+    <option value="LAX">LAX</option>
+    <option value="SEA">SEA</option>
+    </select>
+  </form>
